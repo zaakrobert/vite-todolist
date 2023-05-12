@@ -1,6 +1,8 @@
 import React from 'react'
 
-export default function Item({id, note, date, time, deleteData, submittingData}) {
+export default function Item(props) {
+
+  const {id, note, date, time, deleteData, submittingData} = props
 
   const deleteItem = () => {
     submittingData.current = true
