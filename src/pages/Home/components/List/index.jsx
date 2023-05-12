@@ -1,6 +1,7 @@
 import Item from '../Item'
 
 export default function List( {listData, deleteData, submittingData} ) {
+  
   return (
     <div className='list'>
       {
