@@ -3,10 +3,7 @@ import { v4 } from 'uuid'
 
 export default function Edit(props) {
 
-  const {
-    add,
-    submittingData
-  } = props
+  const { add, submittingData } = props
 
   const [note, setNote] = useState('')
   const noteChange = (e) => {
